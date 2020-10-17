@@ -1,11 +1,14 @@
 {
   "name": "web-components-study",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A project for studying and experimenting with web components.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server --no-browser src/"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Franky Cheung",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
 }
