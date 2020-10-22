@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Components Study</title>
-    <script type="module" src="index.mjs"></script>
-</head>
-<body>
+    <script type="module" src="index.js"></script>
+  </head>
+  <body>
     <h1>Web Components Study</h1>
     <h2>Creating First Component</h2>
     <first-component>
-        <p slot="here">A slotted paragragh</p>
+      <p slot="here">A slotted paragragh</p>
     </first-component>
-</body>
+    <h2>Testing Stylesheets</h2>
+    <p>Two web components calling the same CSS file.</p>
+    <p>
+      The three major browsers: Chrome, Firefox, and Safari, all fetch the CSS
+      resource once. However, it does exhibit FUOC (Flash of Unstyled Content)
+    </p>
+    <css-test-component></css-test-component>
+    <css-test-component></css-test-component>
+  </body>
 </html>
