@@ -1,2 +1,2 @@
-import './first-component/first-component.mjs';
-import './css-test-component/css-test-component.mjs';
+import './first-component/first-component.js';
+import './css-test-component/css-test-component.js';
